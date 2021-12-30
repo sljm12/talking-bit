@@ -31,5 +31,5 @@ basic.forever(function () {
     } else {
         pins.servoWritePin(AnalogPin.P0, max)
     }
-    basic.pause(10)
+    basic.pause(50)
 })
